@@ -48,3 +48,13 @@ A team of 100 developers would benefit more by following the “Dictator and Lieut
 instead of the “Centralized” workflow because it is possible to use several "master" repositories 
 in the “Dictator and Lieutenants” workflow whereas centralized version control systems allow only one 
 which makes it is easy to collaborate with this many people simultaneously.
+
+
+5.
+The RoleGame prototype uses polymorphism and encapsulation.
+
+It uses polymorphism because multiple objects are acting the same way.
+In this case, sword, spear, et.c act as weapon. 
+
+It uses encapsulation because the complexity of the objects are hidden.
+In this case, it hides its complexity by using two public methods 'hit()' and 'hit (armor)' as interface.
