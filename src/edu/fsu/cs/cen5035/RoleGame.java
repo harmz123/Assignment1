@@ -20,5 +20,10 @@ public class RoleGame {
         
         //TODO: Add the remainig weapons here
 
+        weapon = WeaponFactory.getWeapon("simpleHammer");
+        System.out.println("SimpleHammer has " + weapon.hit() + " of damage.");
+        System.out.println("SimpleHammer was able to do " + weapon.hit(armor) + " of damage due to an armor with "+armor+ " points.");
+
+
     }
 }
