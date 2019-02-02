@@ -1,0 +1,50 @@
+3.E.a.
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 894 bytes | 149.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/harmz123/Assignment1.git
+   f7a5d56..1026a19  master -> master
+
+
+3.E.b.
+10
+git rev-list --all --count
+
+3.E.c.
+Thu Sep 15 10:29:34 2016 -0400
+git log -1 --format="%ad" -- .gitignore
+
+3.E.d.
+Branching enables isolation of one's work from others. 
+Branching also supports quality assurance processes.
+
+3.E.e.
+While git status lets you inspect the working directory and the staging area,
+git log only operates on the committed history.
+
+3.E.f.
+git log --follow -- src/edu/fsu/cs/cen5035/Weapon.java
+
+3.E.g.
+git log --all --grep='file'
+
+3.E.h.
+Inheritance is a mechanism where new objects to take on the properties of existing objects.
+Encapsulation is a mechanism to hide the complexity of an object.
+Polymorphism is a mechanism where multiple types of objects might be able to work in a given 
+situation.
+
+3.E.i.
+The “Dictator and Lieutenants” workflow is a larger scale of the “Integration management” workflow”.
+The lieutenant is an integration manager for specific subsystems and the dictator is an integrator 
+above the lieutenants.
+
+3.E.j.
+A team of 100 developers would benefit more by following the “Dictator and Lieutenants” workflow 
+instead of the “Centralized” workflow because it is possible to use several "master" repositories 
+in the “Dictator and Lieutenants” workflow whereas centralized version control systems allow only one 
+which makes it is easy to collaborate with this many people simultaneously.
